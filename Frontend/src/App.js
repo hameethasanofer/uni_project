@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from './commponent/Navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Homescreen from './Screens/Homescreen';
 
 function App() {
   return (
     <>
-    <h1 className='bg-green'> Developers</h1>
+    <Navbar/>
+    <Homescreen/>
     </>
   )
 }
